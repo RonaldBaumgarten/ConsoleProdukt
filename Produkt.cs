@@ -22,7 +22,11 @@ namespace ConsoleProdukt
             this.preis = preis;
             this.hersteller = hersteller;
         }
-
+        
+        public string getInfos()
+        {
+            return name + ", " + preis + ", " + hersteller;  
+        }
 
 
 
